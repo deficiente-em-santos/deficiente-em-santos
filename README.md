@@ -1,2 +1,4 @@
-dEficiente em Santos
-Projeto de Landing Page para rede social voltada para acessibilidade.
+dEficiente em Santos é um
+projeto voltado à acessibilidade inclusiva em Santos.
+
+Saiba mais em: www.deficienteemsantos.com.br
