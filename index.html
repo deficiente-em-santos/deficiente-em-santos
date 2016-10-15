@@ -27,17 +27,17 @@
       <!-- End Google Tag Manager -->
 
 		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-                                    <h1>d<strong>Eficiente em Santos</strong></h1><br />
-					<p>Nós todos estamos conectados. <br />
-					Livre-se dos rótulos. </p>
-                                        <br /><br /><br /><br /><br /><br /><br /><br />
-					<ul class="actions">
-                                            <li><a href="#one" class="button scrolly"> QUERO SABER MAIS </a></li>
-					</ul>
-				</div>
-			</section>
+		<section id="header">
+			<div class="inner">
+                <h1>d<strong>Eficiente em Santos</strong></h1><br />
+				<p>Nós todos estamos conectados. <br />
+				Livre-se dos rótulos. </p>
+                <br /><br /><br /><br /><br /><br /><br /><br />
+				<ul class="actions">
+					<li><a href="#one" class="button scrolly"> QUERO SABER MAIS </a></li>
+				</ul>
+			</div>
+		</section>
 
 		<!-- One -->
 			<section id="one" class="main style1">
@@ -87,34 +87,60 @@
 					</header>
 					<p>E o melhor: de acordo com o que você precisa.</p>
 					<div class="row 150%">
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/mulher-piscina.jpg" alt="" /></span>
+
+						<div class="3u 6u(medium) 12u$(small)">
+							<span class="image fit">
+							    <picture>
+							        <source srcset="images/mulher-piscina--240.jpg" media="(min-width: 1000px)">
+							        <source srcset="images/mulher-piscina--650.jpg" media="(min-width: 800px)">
+							        <img srcset="images/mulher-piscina--650.jpg" alt="">
+							    </picture>
+							</span>
 							<h3>LAZER</h3>
 							<p>Diversão em primeiro lugar! Lugares em que você pode desfrutar de passeios, sendo eles turísticos ou não.</p>
 							<ul class="actions">
 								<li><a href="lazer.html" class="button">MAIS</a></li>
 							</ul>
 						</div>
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/pizza.jpg" alt="" /></span>
+
+						<div class="3u 6u(medium) 12u$(small)">
+							<span class="image fit">
+							    <picture>
+							        <source srcset="images/pizza--240.jpg" media="(min-width: 1000px)">
+							        <source srcset="images/pizza--650.jpg" media="(min-width: 800px)">
+							        <img srcset="images/pizza--650.jpg" alt="">
+							    </picture>
+							</span>
 							<h3>GASTRONOMIA</h3>
 							<p>Comida italiana, japonesa, brasileira... Comer, comer e comer! Aqui os mais diversos bares e restaurantes que atendam sua necessidade.</p>
 							<ul class="actions">
 								<li><a href="gastronomia.html" class="button">MAIS</a></li>
 							</ul>
 						</div>
-                     
-                                            
-						<div class="3u 12u$(medium)">
-							<span class="image fit"><img src="images/basketball.jpg" alt="" /></span>
+
+						<div class="3u 6u(medium) 12u$(small)">
+							<span class="image fit">
+							    <picture>
+							        <source srcset="images/basketball--240.jpg" media="(min-width: 1000px)">
+							        <source srcset="images/basketball--650.jpg" media="(min-width: 800px)">
+							        <img srcset="images/basketball--650.jpg" alt="">
+							    </picture>
+							</span>
 							<h3>ESPORTE</h3>
 							<p>Lugares que ofereçam saúde e lazer para todos: academias e esportes em geral.</p>
 							<ul class="actions">
 								<li><a href="esporte.html" class="button">MAIS</a></li>
 							</ul>
 						</div>
-                                                <div class="3u$ 12u$(medium)">
-							<span class="image fit"><img src="images/mulher-cachorro.jpg" alt="" /></span>
+
+						<div class="3u$ 6u(medium) 12u$(small)">
+							<span class="image fit">
+							    <picture>
+							        <source srcset="images/mulher-cachorro--240.jpg" media="(min-width: 1000px)">
+							        <source srcset="images/mulher-cachorro--650.jpg" media="(min-width: 800px)">
+							        <img srcset="images/mulher-cachorro--650.jpg" alt="">
+							    </picture>
+							</span>
 							<h3>OPORTUNIDADES</h3>
 							<p>Para quem quer crescer na carreira: vagas de emprego e cursos profissionalizantes feitos para seu perfil.</p>
 							<ul class="actions">
@@ -167,6 +193,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+    		<script>document.createElement( "picture" );// Picture element HTML5 shiv</script>
+    		<script src="assets/js/picturefill.min.js" async></script>
 
 	</body>
 </html>
