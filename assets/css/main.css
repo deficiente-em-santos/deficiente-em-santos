@@ -3116,9 +3116,9 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+				padding: 6em 0 6em 0;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal.jpg");
 			}
-
 	}
 
 /* Large */
@@ -3162,6 +3162,7 @@
 			#header {
 				padding: 5em 0 5em 0 ;
 				background-attachment: scroll;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal--1140.jpg");
 			}
 
 				#header br {
@@ -3202,7 +3203,8 @@
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 8em 3em 8em 3em;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal--980.jpg");
 			}
 
 		/* Footer */
@@ -3293,7 +3295,8 @@
 		/* Header */
 
 			#header {
-				padding: 4em 3em 4em 3em ;
+				padding: 4em 3em 4em 3em;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal--736.jpg");
 			}
 
 				#header .actions {
@@ -3364,7 +3367,8 @@
 		/* Header */
 
 			#header {
-				padding: 4em 2em 4em 2em ;
+				padding: 4em 2em 4em 2em;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal--480.jpg");
 			}
 
 				#header br {
@@ -3407,13 +3411,14 @@
 		/* Main */
 
 			.main {
-				padding: 2em 1em 0.1em 1em ;
+				padding: 2em 1em 0.1em 1em;
 			}
 
 		/* Header */
 
 			#header {
-				padding: 3em 1em 3em 1em ;
+				padding: 3em 1em 3em 1em;
+				background-image: url("images/overlay2.png"), url("../../images/background-principal--320.jpg");
 			}
 
 		/* Footer */
